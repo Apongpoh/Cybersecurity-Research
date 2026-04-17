@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cybersecurity Research Hub</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Cybersecurity Research Hub">
+        <span class="brand-mark">CR</span>
+        <span>Cybersecurity Research Hub</span>
+      </a>
+      <nav class="main-nav" aria-label="Primary navigation">
+        <a href="#quick-reference">Quick Ref</a>
+        <a href="#security-foundations">Foundations</a>
+        <a href="#threat-models">Models</a>
+        <a href="#network-reference">Network</a>
+        <a href="#research-workflow">Research</a>
+        <a href="#role-paths">Role Paths</a>
+        <a href="#core-resources">Core Resources</a>
+        <a href="#learning-labs">Learning Labs</a>
+        <a href="#certifications">Certifications</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-content">
+          <p class="eyebrow">Curated cybersecurity career library</p>
+          <h1 id="page-title">Choose a role. Build the skills. Follow trusted links.</h1>
+          <p class="hero-copy">
+            A polished starting point for SOC analysts, penetration testers, incident responders,
+            cloud defenders, AppSec engineers, GRC analysts, and threat intelligence teams.
+          </p>
+          <blockquote class="hero-quote">
+            <p>What we know is only the tip of the iceberg; what we do not know is the ocean beneath it.</p>
+            <cite>Inspired by Sir Isaac Newton</cite>
+          </blockquote>
+          <div class="hero-actions" aria-label="Quick actions">
+            <a class="button primary" href="#quick-reference">Open quick reference</a>
+            <a class="button secondary" href="#role-paths">Explore roles</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro-band" id="quick-start" aria-labelledby="quick-start-title">
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="eyebrow">First hour</p>
+            <h2 id="quick-start-title">Start with the map before the maze.</h2>
+          </div>
+          <div class="starter-grid">
+            <a class="starter-link" href="https://www.nist.gov/itl/applied-cybersecurity/nice/nice-cybersecurity-workforce-framework" target="_blank" rel="noreferrer">
+              <img src="https://www.google.com/s2/favicons?domain=nist.gov&sz=64" alt="" />
+              <span>NIST NICE Workforce Framework</span>
+            </a>
+            <a class="starter-link" href="https://www.cyberseek.org/" target="_blank" rel="noreferrer">
+              <img src="https://www.google.com/s2/favicons?domain=cyberseek.org&sz=64" alt="" />
+              <span>CyberSeek Career Pathways</span>
+            </a>
+            <a class="starter-link" href="https://tryhackme.com/r/path/outline/cybersecurity101" target="_blank" rel="noreferrer">
+              <img src="https://www.google.com/s2/favicons?domain=tryhackme.com&sz=64" alt="" />
+              <span>TryHackMe Cyber Security 101</span>
+            </a>
+            <a class="starter-link" href="https://portswigger.net/web-security" target="_blank" rel="noreferrer">
+              <img src="https://www.google.com/s2/favicons?domain=portswigger.net&sz=64" alt="" />
+              <span>PortSwigger Web Security Academy</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="quick-reference-section" id="quick-reference" aria-labelledby="quick-reference-title">
+        <div class="section-inner">
+          <div class="section-heading wide-heading">
+            <p class="eyebrow">Quick reference</p>
+            <h2 id="quick-reference-title">The terms and models to keep close.</h2>
+            <p>
+              Use this as the fast scan before interviews, labs, reports, or role planning.
+            </p>
+          </div>
+
+          <div class="quick-ref-grid">
+            <article>
+              <strong>CIA Triad</strong>
+              <span>Confidentiality, Integrity, Availability.</span>
+            </article>
+            <article>
+              <strong>Vulnerability</strong>
+              <span>A weakness that can be exploited.</span>
+            </article>
+            <article>
+              <strong>Threat</strong>
+              <span>An actor, event, or condition that can cause harm.</span>
+            </article>
+            <article>
+              <strong>Risk</strong>
+              <span>Likelihood and impact against a valuable asset.</span>
+            </article>
+            <article>
+              <strong>Risk Treatment</strong>
+              <span>Mitigate, transfer, avoid, or accept.</span>
+            </article>
+            <article>
+              <strong>Kill Chain</strong>
+              <span>Attack sequence from recon to objectives.</span>
+            </article>
+            <article>
+              <strong>Diamond Model</strong>
+              <span>Adversary, capability, infrastructure, victim.</span>
+            </article>
+            <article>
+              <strong>MITRE ATT&amp;CK</strong>
+              <span>Tactics and techniques used by adversaries.</span>
+            </article>
+            <article>
+              <strong>OWASP Top 10</strong>
+              <span>Common high-impact web application risks.</span>
+            </article>
+            <article>
+              <strong>IOC</strong>
+              <span>Indicator of compromise, such as hash, IP, domain, or artifact.</span>
+            </article>
+            <article>
+              <strong>TTP</strong>
+              <span>Tactics, techniques, and procedures used in attacks.</span>
+            </article>
+            <article>
+              <strong>SIEM</strong>
+              <span>Centralized log collection, search, alerting, and investigation.</span>
+            </article>
+            <article>
+              <strong>SOAR</strong>
+              <span>Security orchestration, automation, and response for repeatable workflows.</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="foundation-section" id="security-foundations" aria-labelledby="security-foundations-title">
+        <div class="section-inner">
+          <div class="section-heading wide-heading">
+            <p class="eyebrow">Security foundations</p>
+            <h2 id="security-foundations-title">CIA Triad, vulnerability, threat, and risk.</h2>
+            <p>
+              Strong security decisions start with clear language: what must be protected,
+              what could go wrong, how likely it is, and how much damage it could cause.
+            </p>
+          </div>
+
+          <div class="foundation-layout">
+            <div class="triad-panel" aria-label="CIA Triad">
+              <article>
+                <span>C</span>
+                <h3>Confidentiality</h3>
+                <p>Only authorized people and systems can access sensitive data.</p>
+              </article>
+              <article>
+                <span>I</span>
+                <h3>Integrity</h3>
+                <p>Information and systems stay accurate, complete, and trustworthy.</p>
+              </article>
+              <article>
+                <span>A</span>
+                <h3>Availability</h3>
+                <p>Critical services remain accessible when people need them.</p>
+              </article>
+            </div>
+
+            <div class="risk-panel">
+              <article>
+                <h3>Vulnerability</h3>
+                <p>A weakness that can be exploited, such as missing patches, weak passwords, exposed services, or insecure code.</p>
+              </article>
+              <article>
+                <h3>Threat</h3>
+                <p>A person, event, or condition that can exploit a vulnerability, including attackers, malware, insiders, errors, or outages.</p>
+              </article>
+              <article>
+                <h3>Risk</h3>
+                <p>The potential business impact when a threat can exploit a vulnerability against an important asset.</p>
+              </article>
+            </div>
+          </div>
+
+          <div class="management-flow" aria-label="Risk assessment and management flow">
+            <div>
+              <strong>1. Identify</strong>
+              <span>Assets, data, systems, dependencies, and owners.</span>
+            </div>
+            <div>
+              <strong>2. Assess</strong>
+              <span>Vulnerabilities, threats, likelihood, impact, and current controls.</span>
+            </div>
+            <div>
+              <strong>3. Prioritize</strong>
+              <span>Rank risk by severity, exposure, exploitability, and business value.</span>
+            </div>
+            <div>
+              <strong>4. Treat</strong>
+              <span>Mitigate, transfer, avoid, or accept risk with accountable decisions.</span>
+            </div>
+            <div>
+              <strong>5. Monitor</strong>
+              <span>Review changes, incidents, control health, and recurring exceptions.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="threat-model-section" id="threat-models" aria-labelledby="threat-models-title">
+        <div class="section-inner">
+          <div class="section-heading wide-heading">
+            <p class="eyebrow">Threat analysis models</p>
+            <h2 id="threat-models-title">Cyber Kill Chain, Diamond Model, and ATT&amp;CK thinking.</h2>
+            <p>
+              These models help defenders turn scattered evidence into a clear story:
+              where the attack is, what is connected, and what to disrupt next.
+            </p>
+          </div>
+
+          <div class="model-layout">
+            <article class="model-card kill-chain-card">
+              <p class="model-label">Sequence model</p>
+              <h3>Cyber Kill Chain</h3>
+              <p>
+                Tracks attacker progress from early planning through final objectives, so
+                defenders can detect, deny, disrupt, or recover at each stage.
+              </p>
+              <ol class="kill-chain-list">
+                <li>Reconnaissance</li>
+                <li>Weaponization</li>
+                <li>Delivery</li>
+                <li>Exploitation</li>
+                <li>Installation</li>
+                <li>Command and Control</li>
+                <li>Actions on Objectives</li>
+              </ol>
+            </article>
+
+            <article class="model-card diamond-card">
+              <p class="model-label">Relationship model</p>
+              <h3>Diamond Model</h3>
+              <p>
+                Connects the core facts of an intrusion event and helps analysts pivot
+                from one observable to the next.
+              </p>
+              <div class="diamond-diagram" aria-label="Diamond Model core features">
+                <span class="diamond-node adversary">Adversary</span>
+                <span class="diamond-node capability">Capability</span>
+                <span class="diamond-node infrastructure">Infrastructure</span>
+                <span class="diamond-node victim">Victim</span>
+              </div>
+            </article>
+          </div>
+
+          <div class="model-bridge">
+            <div>
+              <strong>Kill Chain</strong>
+              <span>What phase is the attack in?</span>
+            </div>
+            <div>
+              <strong>Diamond Model</strong>
+              <span>What relationships connect the evidence?</span>
+            </div>
+            <div>
+              <strong>MITRE ATT&amp;CK</strong>
+              <span>Which tactics and techniques are being used?</span>
+            </div>
+            <div>
+              <strong>Risk Management</strong>
+              <span>What should the organization do first?</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="network-section" id="network-reference" aria-labelledby="network-reference-title">
+        <div class="section-inner">
+          <div class="section-heading wide-heading">
+            <p class="eyebrow">Network quick reference</p>
+            <h2 id="network-reference-title">Traffic, ports, controls, and packet thinking.</h2>
+            <p>
+              Networking is the common ground for SOC, incident response, cloud security,
+              penetration testing, and threat hunting.
+            </p>
+          </div>
+
+          <div class="network-grid">
+            <article class="network-card">
+              <h3>Core Concepts</h3>
+              <ul>
+                <li>OSI and TCP/IP models explain where protocols and controls operate.</li>
+                <li>IP addressing, subnetting, routing, and NAT explain reachability.</li>
+                <li>DNS, HTTP, TLS, SMTP, SMB, SSH, and RDP appear often in investigations.</li>
+                <li>Latency, packet loss, and retransmissions can separate network faults from attacks.</li>
+              </ul>
+            </article>
+
+            <article class="network-card ports-card">
+              <h3>Common Ports</h3>
+              <div class="port-grid" aria-label="Common network ports">
+                <span>20/21 FTP</span>
+                <span>22 SSH</span>
+                <span>25 SMTP</span>
+                <span>53 DNS</span>
+                <span>80 HTTP</span>
+                <span>443 HTTPS</span>
+                <span>445 SMB</span>
+                <span>514 Syslog</span>
+                <span>3389 RDP</span>
+              </div>
+              <a class="registry-link" href="https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml" target="_blank" rel="noreferrer">
+                Full IANA port and protocol registry
+              </a>
+            </article>
+
+            <article class="network-card">
+              <h3>Security Controls</h3>
+              <ul>
+                <li>Firewalls and ACLs restrict traffic by source, destination, port, and protocol.</li>
+                <li>IDS detects suspicious activity; IPS can block or modify traffic inline.</li>
+                <li>VPNs protect remote traffic through encrypted tunnels.</li>
+                <li>Segmentation limits lateral movement and reduces blast radius.</li>
+              </ul>
+            </article>
+
+            <article class="network-card workflow-card">
+              <h3>Packet Analysis Flow</h3>
+              <ol>
+                <li>Know the expected baseline.</li>
+                <li>Capture traffic at the right point.</li>
+                <li>Filter by host, port, protocol, or time.</li>
+                <li>Inspect sessions, payload clues, and errors.</li>
+                <li>Document findings and next action.</li>
+              </ol>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="research-section" id="research-workflow" aria-labelledby="research-workflow-title">
+        <div class="section-inner">
+          <div class="section-heading wide-heading">
+            <p class="eyebrow">Research workflow</p>
+            <h2 id="research-workflow-title">Turn findings into evidence, context, and action.</h2>
+            <p>
+              Good cybersecurity research separates facts from assumptions, connects evidence
+              to risk, and ends with a clear recommendation.
+            </p>
+          </div>
+
+          <div class="research-layout">
+            <article class="research-card workflow-steps">
+              <h3>Research Steps</h3>
+              <ol>
+                <li><strong>Question:</strong> Define what you are investigating.</li>
+                <li><strong>Scope:</strong> Set boundaries, systems, dates, and exclusions.</li>
+                <li><strong>Collect:</strong> Gather logs, packets, advisories, artifacts, and source material.</li>
+                <li><strong>Validate:</strong> Cross-check claims and separate confirmed facts from assumptions.</li>
+                <li><strong>Map:</strong> Connect findings to CIA, risk, ATT&amp;CK, Kill Chain, Diamond, CVE, or CVSS.</li>
+                <li><strong>Report:</strong> Explain impact, evidence, severity, and recommended remediation.</li>
+              </ol>
+            </article>
+
+            <article class="research-card evidence-card">
+              <h3>Evidence Checklist</h3>
+              <div class="evidence-grid">
+                <span>Logs</span>
+                <span>Packet captures</span>
+                <span>Screenshots</span>
+                <span>Hashes</span>
+                <span>Domains</span>
+                <span>IP addresses</span>
+                <span>Timestamps</span>
+                <span>Exploit details</span>
+                <span>Configs</span>
+                <span>Vendor advisories</span>
+              </div>
+            </article>
+          </div>
+
+          <div class="research-vocab" aria-label="Cybersecurity research vocabulary">
+            <article>
+              <strong>CVE</strong>
+              <span>Public identifier for a disclosed cybersecurity vulnerability.</span>
+            </article>
+            <article>
+              <strong>CVSS</strong>
+              <span>Severity scoring system used to describe vulnerability characteristics.</span>
+            </article>
+            <article>
+              <strong>CWE</strong>
+              <span>Category of software or hardware weakness that can lead to vulnerabilities.</span>
+            </article>
+            <article>
+              <strong>CPE</strong>
+              <span>Structured naming scheme for affected products, platforms, and packages.</span>
+            </article>
+            <article>
+              <strong>NVD</strong>
+              <span>U.S. government vulnerability data repository maintained by NIST.</span>
+            </article>
+            <article>
+              <strong>Responsible Disclosure</strong>
+              <span>Reporting vulnerabilities ethically so owners can fix them before broad release.</span>
+            </article>
+            <article>
+              <strong>False Positive</strong>
+              <span>An alert or finding that looks malicious but is not actually a problem.</span>
+            </article>
+            <article>
+              <strong>False Negative</strong>
+              <span>A missed issue where harmful activity or a real vulnerability was not detected.</span>
+            </article>
+            <article>
+              <strong>Exploitability</strong>
+              <span>How practical it is for an attacker to use a weakness in real conditions.</span>
+            </article>
+            <article>
+              <strong>Impact</strong>
+              <span>The harm to confidentiality, integrity, availability, operations, or safety.</span>
+            </article>
+            <article>
+              <strong>Remediation</strong>
+              <span>Fixing the root issue, such as patching code or changing configuration.</span>
+            </article>
+            <article>
+              <strong>Mitigation</strong>
+              <span>Reducing risk when a full fix is not yet available or practical.</span>
+            </article>
+          </div>
+
+          <div class="research-links" aria-label="Research source links">
+            <a href="https://www.cve.org/" target="_blank" rel="noreferrer">CVE Program</a>
+            <a href="https://nvd.nist.gov/" target="_blank" rel="noreferrer">NVD</a>
+            <a href="https://www.first.org/cvss/" target="_blank" rel="noreferrer">CVSS</a>
+            <a href="https://cwe.mitre.org/" target="_blank" rel="noreferrer">CWE</a>
+            <a href="https://nvd.nist.gov/products/cpe" target="_blank" rel="noreferrer">CPE Dictionary</a>
+            <a href="https://www.cisa.gov/coordinated-vulnerability-disclosure-process" target="_blank" rel="noreferrer">Coordinated Disclosure</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="role-section" id="role-paths" aria-labelledby="role-paths-title">
+        <div class="section-inner">
+          <div class="section-heading wide-heading">
+            <p class="eyebrow">Role paths</p>
+            <h2 id="role-paths-title">Resources organized by cybersecurity work.</h2>
+            <p>
+              Pick the role closest to your goal, then use the links to study the language,
+              tools, labs, and hiring expectations around that discipline.
+            </p>
+          </div>
+
+          <div class="role-grid">
+            <article class="role-card">
+              <div class="role-topline">
+                <img src="https://www.google.com/s2/favicons?domain=cisa.gov&sz=64" alt="" />
+                <span>Defensive operations</span>
+              </div>
+              <h3>SOC Analyst</h3>
+              <p>
+                Monitoring, alert triage, SIEM queries, detection logic, escalation, and daily
+                defender discipline.
+              </p>
+              <div class="tag-row" aria-label="SOC Analyst focus areas">
+                <span>SIEM</span>
+                <span>SOAR</span>
+                <span>Detection</span>
+                <span>MITRE</span>
+              </div>
+              <a href="https://attack.mitre.org/" target="_blank" rel="noreferrer">MITRE ATT&amp;CK matrix</a>
+              <a href="https://www.cisa.gov/news-events/cybersecurity-advisories" target="_blank" rel="noreferrer">CISA cybersecurity advisories</a>
+              <a href="https://tryhackme.com/hacktivities/challenges" target="_blank" rel="noreferrer">TryHackMe defensive labs</a>
+            </article>
+
+            <article class="role-card">
+              <div class="role-topline">
+                <img src="https://www.google.com/s2/favicons?domain=sans.org&sz=64" alt="" />
+                <span>Investigation</span>
+              </div>
+              <h3>Incident Responder</h3>
+              <p>
+                Containment, evidence handling, log analysis, root cause, recovery plans, and
+                after-action improvement.
+              </p>
+              <div class="tag-row" aria-label="Incident Responder focus areas">
+                <span>IR</span>
+                <span>DFIR</span>
+                <span>Forensics</span>
+              </div>
+              <a href="https://www.sans.org/posters/" target="_blank" rel="noreferrer">SANS posters and cheat sheets</a>
+              <a href="https://www.cisa.gov/resources-tools/resources/incident-response-plan-irp-basics" target="_blank" rel="noreferrer">CISA incident response basics</a>
+              <a href="https://www.mitre.org/focus-areas/cybersecurity/threat-informed-defense" target="_blank" rel="noreferrer">MITRE threat-informed defense</a>
+            </article>
+
+            <article class="role-card">
+              <div class="role-topline">
+                <img src="https://www.google.com/s2/favicons?domain=hackthebox.com&sz=64" alt="" />
+                <span>Offensive security</span>
+              </div>
+              <h3>Penetration Tester</h3>
+              <p>
+                Reconnaissance, vulnerability validation, exploitation, reporting, and clear risk
+                communication.
+              </p>
+              <div class="tag-row" aria-label="Penetration Tester focus areas">
+                <span>Web</span>
+                <span>Network</span>
+                <span>AD</span>
+                <span>Kali</span>
+              </div>
+              <a href="https://academy.hackthebox.com/" target="_blank" rel="noreferrer">Hack The Box Academy</a>
+              <a href="https://tryhackme.com/path/outline/pentesting/" target="_blank" rel="noreferrer">TryHackMe Offensive Pentesting</a>
+              <a href="https://www.kali.org/tools/" target="_blank" rel="noreferrer">Kali Linux tool reference</a>
+              <a href="https://owasp.org/www-project-web-security-testing-guide/" target="_blank" rel="noreferrer">OWASP Web Security Testing Guide</a>
+            </article>
+
+            <article class="role-card">
+              <div class="role-topline">
+                <img src="https://www.google.com/s2/favicons?domain=owasp.org&sz=64" alt="" />
+                <span>Product security</span>
+              </div>
+              <h3>Application Security Engineer</h3>
+              <p>
+                Secure design reviews, code risk, web vulnerabilities, threat modeling, and secure
+                delivery.
+              </p>
+              <div class="tag-row" aria-label="Application Security Engineer focus areas">
+                <span>OWASP</span>
+                <span>SDLC</span>
+                <span>Threat modeling</span>
+              </div>
+              <a href="https://owasp.org/www-project-top-ten/" target="_blank" rel="noreferrer">OWASP Top 10</a>
+              <a href="https://portswigger.net/web-security" target="_blank" rel="noreferrer">PortSwigger Web Security Academy</a>
+              <a href="https://owasp.org/www-project-samm/" target="_blank" rel="noreferrer">OWASP SAMM</a>
+            </article>
+
+            <article class="role-card">
+              <div class="role-topline">
+                <img src="https://www.google.com/s2/favicons?domain=cloudsecurityalliance.org&sz=64" alt="" />
+                <span>Cloud defense</span>
+              </div>
+              <h3>Cloud Security Engineer</h3>
+              <p>
+                Identity, network controls, posture management, logging, secure architecture, and
+                platform hardening.
+              </p>
+              <div class="tag-row" aria-label="Cloud Security Engineer focus areas">
+                <span>IAM</span>
+                <span>Logging</span>
+                <span>Architecture</span>
+              </div>
+              <a href="https://cloudsecurityalliance.org/research/cloud-controls-matrix" target="_blank" rel="noreferrer">CSA Cloud Controls Matrix</a>
+              <a href="https://docs.aws.amazon.com/security/" target="_blank" rel="noreferrer">AWS Security Documentation</a>
+              <a href="https://learn.microsoft.com/security/" target="_blank" rel="noreferrer">Microsoft Security Learn</a>
+            </article>
+
+            <article class="role-card">
+              <div class="role-topline">
+                <img src="https://www.google.com/s2/favicons?domain=cisecurity.org&sz=64" alt="" />
+                <span>Risk and assurance</span>
+              </div>
+              <h3>GRC Analyst</h3>
+              <p>
+                Policy, control mapping, audits, risk registers, vendor reviews, and executive-ready
+                reporting.
+              </p>
+              <div class="tag-row" aria-label="GRC Analyst focus areas">
+                <span>Controls</span>
+                <span>Risk</span>
+                <span>Audit</span>
+              </div>
+              <a href="https://www.cisecurity.org/controls" target="_blank" rel="noreferrer">CIS Controls</a>
+              <a href="https://www.nist.gov/cyberframework" target="_blank" rel="noreferrer">NIST Cybersecurity Framework</a>
+              <a href="https://www.isaca.org/credentialing/cisa" target="_blank" rel="noreferrer">ISACA CISA certification</a>
+            </article>
+
+            <article class="role-card">
+              <div class="role-topline">
+                <img src="https://www.google.com/s2/favicons?domain=mitre.org&sz=64" alt="" />
+                <span>Intelligence</span>
+              </div>
+              <h3>Threat Intelligence Analyst</h3>
+              <p>
+                Adversary tracking, collection planning, indicator context, intelligence briefs, and
+                threat-informed defense.
+              </p>
+              <div class="tag-row" aria-label="Threat Intelligence Analyst focus areas">
+                <span>ATT&amp;CK</span>
+                <span>OSINT</span>
+                <span>Briefing</span>
+              </div>
+              <a href="https://attack.mitre.org/" target="_blank" rel="noreferrer">MITRE ATT&amp;CK</a>
+              <a href="https://www.mandiant.com/resources/blog" target="_blank" rel="noreferrer">Mandiant threat research</a>
+              <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank" rel="noreferrer">CISA Known Exploited Vulnerabilities</a>
+            </article>
+
+            <article class="role-card">
+              <div class="role-topline">
+                <img src="https://www.google.com/s2/favicons?domain=elastic.co&sz=64" alt="" />
+                <span>Security platform</span>
+              </div>
+              <h3>Security Engineer</h3>
+              <p>
+                Endpoint controls, logging pipelines, identity guardrails, automation, and resilient
+                security tooling.
+              </p>
+              <div class="tag-row" aria-label="Security Engineer focus areas">
+                <span>Automation</span>
+                <span>SOAR</span>
+                <span>EDR</span>
+                <span>Hardening</span>
+              </div>
+              <a href="https://www.elastic.co/security-labs" target="_blank" rel="noreferrer">Elastic Security Labs</a>
+              <a href="https://learn.microsoft.com/security/operations/" target="_blank" rel="noreferrer">Microsoft security operations</a>
+              <a href="https://www.cisecurity.org/benchmark" target="_blank" rel="noreferrer">CIS Benchmarks</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="resource-band" id="core-resources" aria-labelledby="core-resources-title">
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="eyebrow">Reference shelf</p>
+            <h2 id="core-resources-title">High-signal resources worth bookmarking.</h2>
+          </div>
+          <div class="resource-list">
+            <a href="https://www.nist.gov/itl/applied-cybersecurity/nice/resources/career-pathways" target="_blank" rel="noreferrer">
+              <img src="https://www.google.com/s2/favicons?domain=nist.gov&sz=64" alt="" />
+              <span>NIST NICE Cybersecurity Career Pathway Resources</span>
+            </a>
+            <a href="https://www.cyberseek.org/" target="_blank" rel="noreferrer">
+              <img src="https://www.google.com/s2/favicons?domain=cyberseek.org&sz=64" alt="" />
+              <span>CyberSeek role map, salary, skills, and workforce demand</span>
+            </a>
+            <a href="https://attack.mitre.org/" target="_blank" rel="noreferrer">
+              <img src="https://www.google.com/s2/favicons?domain=mitre.org&sz=64" alt="" />
+              <span>MITRE ATT&amp;CK adversary tactics and techniques</span>
+            </a>
+            <a href="https://owasp.org/www-project-top-ten/" target="_blank" rel="noreferrer">
+              <img src="https://www.google.com/s2/favicons?domain=owasp.org&sz=64" alt="" />
+              <span>OWASP Top 10 web application security risks</span>
+            </a>
+            <a href="https://www.cisecurity.org/controls" target="_blank" rel="noreferrer">
+              <img src="https://www.google.com/s2/favicons?domain=cisecurity.org&sz=64" alt="" />
+              <span>CIS Controls for practical security programs</span>
+            </a>
+            <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank" rel="noreferrer">
+              <img src="https://www.google.com/s2/favicons?domain=cisa.gov&sz=64" alt="" />
+              <span>CISA Known Exploited Vulnerabilities Catalog</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="split-band" id="learning-labs" aria-labelledby="learning-labs-title">
+        <div class="section-inner split-layout">
+          <div class="section-heading">
+            <p class="eyebrow">Hands-on practice</p>
+            <h2 id="learning-labs-title">Build proof, not just notes.</h2>
+            <p>
+              Labs make interviews easier because you can talk through a concrete investigation,
+              exploit chain, detection idea, or hardening decision.
+            </p>
+          </div>
+          <div class="lab-panel">
+            <a href="https://academy.hackthebox.com/" target="_blank" rel="noreferrer">
+              <img src="https://www.google.com/s2/favicons?domain=hackthebox.com&sz=64" alt="" />
+              <span>Hack The Box Academy</span>
+            </a>
+            <a href="https://tryhackme.com/r/path/outline/cybersecurity101" target="_blank" rel="noreferrer">
+              <img src="https://www.google.com/s2/favicons?domain=tryhackme.com&sz=64" alt="" />
+              <span>TryHackMe Cyber Security 101</span>
+            </a>
+            <a href="https://portswigger.net/web-security" target="_blank" rel="noreferrer">
+              <img src="https://www.google.com/s2/favicons?domain=portswigger.net&sz=64" alt="" />
+              <span>PortSwigger Web Security Academy</span>
+            </a>
+            <a href="https://www.sans.org/cyberaces/" target="_blank" rel="noreferrer">
+              <img src="https://www.google.com/s2/favicons?domain=sans.org&sz=64" alt="" />
+              <span>SANS free cybersecurity resources</span>
+            </a>
+            <a href="https://www.kali.org/tools/" target="_blank" rel="noreferrer">
+              <img src="https://www.google.com/s2/favicons?domain=kali.org&sz=64" alt="" />
+              <span>Kali Linux tools</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="cert-section" id="certifications" aria-labelledby="certifications-title">
+        <div class="section-inner">
+          <div class="section-heading wide-heading">
+            <p class="eyebrow">Certification direction</p>
+            <h2 id="certifications-title">Use certifications to support the role, not replace the work.</h2>
+            <p>
+              Match a certification path to your target role, then pair it with labs, writing samples,
+              and small projects that demonstrate judgment.
+            </p>
+          </div>
+
+          <div class="cert-grid">
+            <a href="https://www.isc2.org/certifications/CC" target="_blank" rel="noreferrer">
+              <strong>Entry foundation</strong>
+              <span>ISC2 Certified in Cybersecurity</span>
+            </a>
+            <a href="https://www.comptia.org/certifications/security" target="_blank" rel="noreferrer">
+              <strong>General baseline</strong>
+              <span>CompTIA Security+</span>
+            </a>
+            <a href="https://www.comptia.org/certifications/cysa" target="_blank" rel="noreferrer">
+              <strong>Blue team</strong>
+              <span>CompTIA CySA+</span>
+            </a>
+            <a href="https://www.comptia.org/certifications/pentest" target="_blank" rel="noreferrer">
+              <strong>Offensive testing</strong>
+              <span>CompTIA PenTest+</span>
+            </a>
+            <a href="https://www.isaca.org/credentialing/cisa" target="_blank" rel="noreferrer">
+              <strong>Governance</strong>
+              <span>ISACA CISA</span>
+            </a>
+            <a href="https://www.isc2.org/certifications/cissp" target="_blank" rel="noreferrer">
+              <strong>Experienced leadership</strong>
+              <span>ISC2 CISSP</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <p>Organized for practical cybersecurity career planning.</p>
+        <p class="footer-advice">
+          Advice: stay curious, verify every claim, document your evidence, and use these references only on systems you own or are authorized to test.
+        </p>
+      </div>
+      <a href="#top">Back to top</a>
+    </footer>
+  </body>
+</html>
