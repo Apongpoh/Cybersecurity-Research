@@ -2,6 +2,10 @@
 
 A static HTML and CSS quick-reference hub for cybersecurity research, fundamentals, models, networking, role paths, hands-on practice, tools, and trusted external resources.
 
+## Live Site
+
+https://apongpoh.github.io/Cybersecurity-Research/
+
 ## What It Covers
 
 - Quick cybersecurity reference terms
